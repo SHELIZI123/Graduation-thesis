@@ -1,0 +1,8 @@
+# Use a fresh Python 3.11 environment; install CUDA PyTorch separately.
+# Fixed official v2, consistent with the locally available checkpoint.
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.2
+joblib==1.4.2
+threadpoolctl>=3.1,<4
+tabpfn==2.0.9

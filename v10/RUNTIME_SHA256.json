@@ -1,0 +1,10 @@
+{
+  "config/automatic_audit_summary.json": "a6d8e16d217cd9ffd300fe32d86317e12fb99533c4957fac7313ffcb24544d72",
+  "config/dataset_lock.json": "9f39a13e90584fef30b20b2349a89ea3e618b3be4f496475f1588de4688e2fda",
+  "config/local_paths.json": "34874874ba08bbb487d7b94209f802dee38a0d05c4df265e2362a1955ed0ee5f",
+  "config/task_0.json": "931922bdfd21806e6bada1235b60037eb3b43915a1d45dfebfcd799333019a00",
+  "config/task_1.json": "d1a9a57a8a8a50c03fe61139723e7c93dcdfa6ab6ec02eb79ecd7c2ca9d2ac0d",
+  "engine/weights/cbramod_pretrained.pth": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+  "engine/weights/tabpfn-v2-regressor.ckpt": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736",
+  "engine/本地验证说明.md": "114ccda69f261acb69a079e2b7daacf0c8528258ee32e1b56afe1d27c0738ab3"
+}

@@ -1,0 +1,4 @@
+# Install a CUDA-compatible PyTorch separately using the server's existing environment.
+numpy>=1.23,<3
+scipy>=1.9,<2
+scikit-learn>=1.2,<2

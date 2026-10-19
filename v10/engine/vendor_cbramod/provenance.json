@@ -1,0 +1,22 @@
+{
+  "repo": "https://github.com/wjq-learning/CBraMod",
+  "commit": "b9e961003214326972c567eff390e75b0287e32a",
+  "modifications": "cbramod.py import namespace only",
+  "files": {
+    "cbramod.py": {
+      "url": "https://raw.githubusercontent.com/wjq-learning/CBraMod/b9e961003214326972c567eff390e75b0287e32a/models/cbramod.py",
+      "original_sha256": "caa7c5a0e4acd488a6f625b56f7b54dc4e7190d6b68ef5b76dff2cef86874a14",
+      "vendored_sha256": "419e667b318f014a9d37b2abb6291c2b127c757b2726863f26bbf65c2f4ba42a"
+    },
+    "criss_cross_transformer.py": {
+      "url": "https://raw.githubusercontent.com/wjq-learning/CBraMod/b9e961003214326972c567eff390e75b0287e32a/models/criss_cross_transformer.py",
+      "original_sha256": "90e90b8c98ca7eb543c44e32afc29674d3f71cb090692ad9f82db3a43edf334c",
+      "vendored_sha256": "90e90b8c98ca7eb543c44e32afc29674d3f71cb090692ad9f82db3a43edf334c"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/wjq-learning/CBraMod/b9e961003214326972c567eff390e75b0287e32a/LICENSE",
+      "original_sha256": "eb839b706e4d7219842e96d7dc33285844abc794292602deb3498be7b699537c",
+      "vendored_sha256": "eb839b706e4d7219842e96d7dc33285844abc794292602deb3498be7b699537c"
+    }
+  }
+}
