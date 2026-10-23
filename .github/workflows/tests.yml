@@ -1,0 +1,25 @@
+name: Public source tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  synthetic-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install CPU test dependencies
+        run: |
+          python -m pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements.txt
+          python -m pip check
+      - name: Verify unchanged numerical source
+        run: python -B verify_public_source.py
+      - name: Run tests without patient data or weights
+        run: python -B run_public_tests.py

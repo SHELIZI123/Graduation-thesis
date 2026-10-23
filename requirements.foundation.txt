@@ -1,0 +1,5 @@
+-r requirements.lock.txt
+tabpfn==2.0.9
+einops==0.8.2
+# Install in an environment with an already working CUDA PyTorch >=2.3,<3.
+# Version is deliberately tied to the official Nature-2025 v2 regressor checkpoint.

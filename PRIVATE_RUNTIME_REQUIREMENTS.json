@@ -1,0 +1,10 @@
+{
+  "version": "V17.3",
+  "source_package_manifest_sha256": "e5d4a6c78edb9d49cfb10c4eb6a83dced285360a8022711e94b4f2813b6042dd",
+  "data_manifest_sha256": "03a9139ed5f181a24358aade56638d70ea22aaa5e4305cf05849528cf387bb35",
+  "extras_manifest_sha256": "301c9092988021cbf379fb4378f6abb698fbe3109e5644de64061ff8c81df627",
+  "source_snapshot_names": [
+    "V171_SOURCE_SNAPSHOT.json",
+    "V172_SOURCE_SNAPSHOT.json"
+  ]
+}

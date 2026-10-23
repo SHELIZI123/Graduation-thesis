@@ -1,0 +1,4 @@
+# Use an already verified CUDA PyTorch runtime; then install these dependencies.
+-r requirements.lock.txt
+torch>=2.3,<3
+einops==0.8.2

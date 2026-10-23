@@ -1,8 +1,21 @@
-# Private cohort configuration and runtime material
-v10/config/
-v10/engine/本地验证说明.md
-**/weights/*.pth
-**/weights/*.ckpt
+# Private runtime, cohort data, manifests and all model artifacts
+data/
+extras/
+weights/
+raw/
+processed/
+features/
+results/
+outputs/
+server_*/
+smoke_*/
+local_*/
+signal_only*/
+PACKAGE_MANIFEST.json
+V171_SOURCE_SNAPSHOT.json
+V172_SOURCE_SNAPSHOT.json
+VALIDATION.json
+PRIVATE_RUNTIME_IMPORT.json
 *.npz
 *.npy
 *.edf
@@ -17,6 +30,7 @@ v10/engine/本地验证说明.md
 *.pth
 *.ckpt
 *.zip
+*.tar
 *.tar.gz
 *.log
 __pycache__/
@@ -25,11 +39,5 @@ __pycache__/
 venv/
 .env
 .env.*
-data/
-raw/
-processed/
-features/
-results/
-outputs/
 wandb/
 lightning_logs/
